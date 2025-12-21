@@ -7,6 +7,7 @@ License:	BSD
 URL:		https://github.com/baskerville/bspwm
 Source0:	https://github.com/baskerville/bspwm/archive/%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	pkgconfig(xcb-ewmh)
 BuildRequires:	pkgconfig(xcb-keysyms)
 BuildRequires:	pkgconfig(xcb-util)
